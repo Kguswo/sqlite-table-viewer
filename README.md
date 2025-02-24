@@ -21,7 +21,7 @@ cd sqlite-table-viewer
 2. Ensure you have an SQLite database file (e.g., `attendance.db`).
 Run the script:
 ```sh
-python main.py
+python check_db.py
 ```
 
 4. The script will print:
