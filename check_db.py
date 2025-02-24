@@ -2,7 +2,7 @@ from sqlite_helper import DBHelper
 
 def main():
     # DB 연결
-    db = DBHelper("attendance.db") # 파일 붙여넣은 뒤 sample.db 부분을 변경해서 조회하면 된다.
+    db = DBHelper("sample.db") # 파일 붙여넣은 뒤 sample.db 부분을 변경해서 조회하면 된다.
     
     # 테이블 목록 조회
     tables = db.execute_query("SELECT name FROM sqlite_master WHERE type='table'")
